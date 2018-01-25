@@ -23,8 +23,8 @@
         android:textColor="@android:color/white"
         android:gravity="center"
         android:paddingTop="52dp"
-        android:layout_marginLeft="4dp"
-        android:layout_marginRight="4dp"
+        android:paddingLeft="4dp"
+        android:paddingRight="4dp"
         android:text="@string/program" />
 
     <TextView
@@ -32,7 +32,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentRight="true"
-        android:layout_marginRight="4dp"
+        android:paddingRight="4dp"
         android:layout_below="@id/program"
         android:textSize="24sp"
         android:textStyle="italic"
@@ -49,10 +49,11 @@
         android:layout_height="wrap_content"
         android:layout_alignParentRight="true"
         android:layout_above="@id/street"
-        android:layout_marginRight="8dp"
-        android:textSize="20sp"
+        android:paddingRight="8dp"
+        android:textSize="22sp"
         android:textStyle="bold"
         android:textColor="@android:color/white"
+        android:background="#10000000"
         android:textAllCaps="true"
         android:text="@string/name" />
 
@@ -62,10 +63,11 @@
         android:layout_height="wrap_content"
         android:layout_above="@id/city"
         android:layout_alignParentRight="true"
-        android:textSize="16sp"
+        android:textSize="18sp"
         android:textStyle="bold"
         android:textColor="@android:color/white"
-        android:layout_marginRight="8dp"
+        android:background="#10000000"
+        android:paddingRight="8dp"
         android:text="@string/street" />
 
     <TextView
@@ -74,10 +76,11 @@
         android:layout_height="wrap_content"
         android:layout_above="@id/phone"
         android:layout_alignParentRight="true"
-        android:textSize="16sp"
+        android:textSize="18sp"
         android:textStyle="bold"
         android:textColor="@android:color/white"
-        android:layout_marginRight="8dp"
+        android:background="#10000000"
+        android:padding="8dp"
         android:text="@string/city" />
 
     <TextView
@@ -86,10 +89,11 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_alignParentRight="true"
-        android:textSize="16sp"
+        android:textSize="18sp"
         android:textStyle="bold"
         android:textColor="@android:color/white"
-        android:layout_marginRight="8dp"
+        android:background="#10000000"
+        android:paddingRight="8dp"
         android:layout_marginBottom="8dp"
         android:textColorLink="@android:color/white"
         android:linksClickable="true"
