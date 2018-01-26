@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- These are the dimensions for the title -->
+    <dimen name="text_size_title">36sp</dimen>
+    <dimen name="text_paddingtop_title">52dp</dimen>
+    <dimen name="text_paddingleft_title">4dp</dimen>
+    <dimen name="text_paddingright_title">4dp</dimen>
+    <!-- This is the size of the url -->
+    <dimen name="text_size_web">24sp</dimen>
+    <!-- This is the size of the padding for all the text in the bottom right -->
+    <dimen name="text_paddingright_bottom">8dp</dimen>
+    <!-- This is the size of the name -->
+    <dimen name="text_size_name">22sp</dimen>
+    <!-- This is the size of the address lines -->
+    <dimen name="text_size_address">18sp</dimen>
+</resources>

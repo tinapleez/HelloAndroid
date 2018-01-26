@@ -11,20 +11,21 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:scaleType="centerCrop"
-        android:src="@drawable/flyingcar" />
+        android:src="@drawable/udacityflyingcar"
+        android:contentDescription="@string/image_flying_car" />
 
     <TextView
         android:id="@+id/program"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textSize="36sp"
+        android:textSize="@dimen/text_size_title"
         android:textStyle="bold"
-        android:background="#10000000"
+        android:background="@color/transparent_black1"
         android:textColor="@android:color/white"
         android:gravity="center"
-        android:paddingTop="52dp"
-        android:paddingLeft="4dp"
-        android:paddingRight="4dp"
+        android:paddingTop="@dimen/text_paddingtop_title"
+        android:paddingLeft="@dimen/text_paddingleft_title"
+        android:paddingRight="@dimen/text_paddingright_title"
         android:text="@string/program" />
 
     <TextView
@@ -32,12 +33,12 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentRight="true"
-        android:paddingRight="4dp"
+        android:paddingRight="@dimen/text_paddingright_title"
         android:layout_below="@id/program"
-        android:textSize="24sp"
+        android:textSize="@dimen/text_size_web"
         android:textStyle="italic"
         android:textColor="@android:color/white"
-        android:background="#50000000"
+        android:background="@color/transparent_black2"
         android:linksClickable="true"
         android:autoLink="web"
         android:textColorLink="@android:color/white"
@@ -49,11 +50,11 @@
         android:layout_height="wrap_content"
         android:layout_alignParentRight="true"
         android:layout_above="@id/street"
-        android:paddingRight="8dp"
-        android:textSize="22sp"
+        android:paddingRight="@dimen/text_paddingright_bottom"
+        android:textSize="@dimen/text_size_name"
         android:textStyle="bold"
         android:textColor="@android:color/white"
-        android:background="#10000000"
+        android:background="@color/transparent_black1"
         android:textAllCaps="true"
         android:text="@string/name" />
 
@@ -63,11 +64,11 @@
         android:layout_height="wrap_content"
         android:layout_above="@id/city"
         android:layout_alignParentRight="true"
-        android:textSize="18sp"
+        android:textSize="@dimen/text_size_address"
         android:textStyle="bold"
         android:textColor="@android:color/white"
-        android:background="#10000000"
-        android:paddingRight="8dp"
+        android:background="@color/transparent_black1"
+        android:paddingRight="@dimen/text_paddingright_bottom"
         android:text="@string/street" />
 
     <TextView
@@ -76,11 +77,11 @@
         android:layout_height="wrap_content"
         android:layout_above="@id/phone"
         android:layout_alignParentRight="true"
-        android:textSize="18sp"
+        android:textSize="@dimen/text_size_address"
         android:textStyle="bold"
         android:textColor="@android:color/white"
-        android:background="#10000000"
-        android:padding="8dp"
+        android:background="@color/transparent_black1"
+        android:padding="@dimen/text_paddingright_bottom"
         android:text="@string/city" />
 
     <TextView
@@ -89,12 +90,12 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_alignParentRight="true"
-        android:textSize="18sp"
+        android:textSize="@dimen/text_size_address"
         android:textStyle="bold"
         android:textColor="@android:color/white"
-        android:background="#10000000"
+        android:background="@color/transparent_black1"
         android:paddingRight="8dp"
-        android:layout_marginBottom="8dp"
+        android:layout_marginBottom="@dimen/text_paddingright_bottom"
         android:textColorLink="@android:color/white"
         android:linksClickable="true"
         android:autoLink="phone"
